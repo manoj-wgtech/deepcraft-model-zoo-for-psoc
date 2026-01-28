@@ -1,0 +1,25 @@
+{
+  "title": "Radar & PSoC™ 6 - Entrance Counter",
+  "description": "Detect and count people entering or exiting a space using radar sensors and PSoC™ 6 processing.",
+  "long_description": "This project demonstrates an entrance counter system built with Infineon's XENSIV™ 60 GHz radar sensor and PSoC™ 6. By processing radar reflections, the system detects human entry and exit events in real time, enabling accurate people counting, occupancy monitoring, and smart building automation.",
+  "algorithm": "Range-Doppler Processing",
+  "sensors": ["60GHz Radar (BGT60TR13C) Sensor"],
+  "domain": ["People Counting", "Entry - Exit Monitoring"],
+  "application": ["Smart Building", "Occupancy Monitoring", "Security Systems"],
+  "use_case": ["Entrance Counting", "People Counting", "Entry and Exit Detection", "Occupancy Monitoring"],
+  "kit": ["PSoC™ Edge AI Kit", "PSoC™ Edge Development Kit"],
+  "device": ["PSoC™ 6"],
+  "workflow": ["Radar Signal Processing"],
+  "thumbnail_image_id": "sample.png",
+  "main_image_id": "sample.png",
+  "brand_image_id": "deepcraft.png",
+  "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "",
+      "heading": "Try Today",
+      "sub-heading": "Accelerate your path to production"
+    }
+  ]
+}
