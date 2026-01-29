@@ -77,6 +77,6 @@ For detailed flashing instructions, refer to [**ModusToolbox™ Programmer Docum
  
 © 2025 WG Tech Solutions Pvt Ltd. All rights reserved.
  
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](licenses/LICENSE) file for details.
  
 PSoC™, ModusToolbox™, and XENSIV™ are trademarks of Infineon Technologies AG. Other names and brands may be claimed as property of their respective owners.
