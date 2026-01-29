@@ -26,13 +26,15 @@ The Application for Entrance Counter is designed to accurately count the number 
 ## Licenses
 
 This sample application and deployable binaries are licensed under the terms specified in the LICENSE file.  
-See: https://github.com/Infineon/entrance-counter-app-for-psoc/blob/main/licenses/LICENSE.txt
+See: RadarEntranceCounter/licenses/LICENSE.txt
 
 All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, etc.) are property of Infineon Technologies AG.
 
 ### High-Level Flow Diagram
 
+
 <img src="readme_assets/Flowchart.png" alt="Entrance Counter Flow Diagram" width="500" height="300">
+
 
 ## Pre-requisites
 
