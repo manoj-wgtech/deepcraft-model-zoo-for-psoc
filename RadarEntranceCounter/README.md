@@ -26,12 +26,12 @@ The Application for Entrance Counter is designed to accurately count the number 
 ## Licenses
 
 This sample application and deployable binaries are licensed under the terms in the LICENSE file.  
-See: [LICENSE](licenses/LICENSE.txt) for full details.
+See: [LICENSE](licenses/LICENSE) for full details.
 
 All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, etc.) are property of Infineon Technologies AG.
 ### High-Level Flow Diagram
 
-<img src="./readme_assets/Flowchart.png" alt="Entrance Counter Flow Diagram" width="500" height="300">
+<img src="./readme_assets/Flowchart.png" alt="Entrance Counter Flow Diagram" width="500" height="500">
 
 ## Pre-requisites
 
@@ -46,7 +46,7 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 
 2. Copy all the `.h` and `.a` files from the `PSOC6_AI_fw_binary` folder to your `<application_workspace>/ml_pipeline_libs` directory (or the equivalent location for the radar pipeline).
 
-3. Open `Makefile` (or `proj_cm0p/Makefile` if dual-core) and update the following variables for the Entrance Counter application:
+3. Open `Makefile` (or `proj_cm55/Makefile` if dual-core) and update the following variables for the Entrance Counter application:
    - `NN_TYPE=int8x8` (if ML components are used; adjust for pure radar processing)
    - `NN_MODEL_NAME=ENTRANCE_COUNTER`
    - `LDLIBS+=../ml_pipeline_libs/ENTRANCE_COUNTER_pipeline.a`
