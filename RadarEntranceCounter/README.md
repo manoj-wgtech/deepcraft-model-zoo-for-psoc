@@ -16,6 +16,7 @@ The Application for Entrance Counter is designed to accurately count the number 
 - **Safety and Compliance**: Ensure adherence to occupancy limits in restaurants, theatres, or other public spaces.
 ### Specification and Compatibility
 #### Sensor Settings – Radar
+© 2025 WG Tech Solutions Pvt$0
 - **Sample Rate**: 200000 Hz
 - **Field of View**: ±45 degrees
 - **Features**: Range, velocity, Doppler
@@ -23,30 +24,46 @@ The Application for Entrance Counter is designed to accurately count the number 
 - Infineon PSoC™ 6
 - Infineon XENSIV™ BGT60TR13C
 ## Licenses
-Source Model: https://github.com/Infineon/entrance-counter-model/blob/main/LICENSE  
-Sample Application and Deployable Binaries: https://github.com/Infineon/entrance-counter-app-for-psoc/blob/main/LICENSE.txt  
-Model: https://github.com/Infineon/entrance-counter-app-for-psoc/blob/main/licenses/MODEL_LICENSE.txt  
-Dataset: https://creativecommons.org/publicdomain/zero/1.0/
+
+This sample application and deployable binaries are licensed under the terms specified in the LICENSE file.  
+See: https://github.com/Infineon/entrance-counter-app-for-psoc/blob/main/licenses/LICENSE.txt
+
+All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, etc.) are property of Infineon Technologies AG.
+
 ### High-Level Flow Diagram
-<img src="readme_assets/ENTRANCE_COUNTER_FLOWCHART.png" alt="Entrance Counter Flow Diagram" width="500" height="300">
+
+<img src="readme_assets/Flowchart.png" alt="Entrance Counter Flow Diagram" width="500" height="300">
+
 ## Pre-requisites
+
 1. Setup ModusToolbox™ software environment and supported hardware kit (e.g., PSoC™ 6 with XENSIV™ BGT60TR13C radar sensor). Refer to the [ModusToolbox™ User Guide](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) for installation and kit configuration.
+
 2. Install necessary libraries via ModusToolbox Library Manager (e.g., Radar Sensing SDK).
+
 3. This code example assumes UART/USB connection for output visualization; optional host app for GUI display (e.g., Python-based counter viewer).
+
 ### Deployment Steps
 1. Import the Entrance Counter application project into ModusToolbox™ via File > Import > ModusToolbox Application.
-2. Go to [Entrance Counter FW Artifacts](https://github.com/Infineon/entrance-counter-app-for-psoc/tree/main/fw) and copy all the .h and .a files to `<application_workspace>/ml_pipeline_libs` directory (or equivalent for radar pipeline).
-3. Open `Makefile` (or `proj_cm0p/Makefile` if dual-core) and update the following variables for the Entrance Counter application:
+
+2. Go to [Entrance Counter FW Artifacts](https://github.com/Infineon/entrance-counter-app-for-psoc/tree/main/PSOC6_AI_fw_binary) and copy all the .h and .a files to `<application_workspace>/ml_pipeline_libs` directory (or equivalent for radar pipeline).
+
+3. Open `Makefile` (or `proj_cm55/Makefile` if dual-core) and update the following variables for the Entrance Counter application:
    - `NN_TYPE=int8x8` (if ML components are used; adjust for pure radar processing)
    - `NN_MODEL_NAME=ENTRANCE_COUNTER`
    - `LDLIBS+=../ml_pipeline_libs/ENTRANCE_COUNTER_pipeline.a`
    - `DEFINES+=ML_RADAR_CM0P MODEL_NAME=$(NN_MODEL_NAME) CY_RADAR_SENSOR=BGT60TR13C`
+
 4. Connect the supported hardware kit (PSoC™ 6 + BGT60TR13C) via USB and ensure radar sensor is powered/configured.
+
 5. Build the full project: Right-click project > Build Project.
+
 6. Program the application to the PSoC™ 6 hardware: Right-click project > Program.
+
 7. Once the application hex is successfully flashed to the PSoC™ 6 hardware, the Entrance Counter use-case will start running by default, outputting counts via UART.
+
 8. For real-time visualization, run `Dashboard.exe` from the [PSOC6_AI_binaries](PSOC6_AI_binaries/) directory and connect via serial port (e.g., COM3) to view the UI dashboard.
-<img src="docs/Dashboard.png" alt="Entrance Counter Running" width="640" height="480">
+
+<img src="readme_assets/Dashboard.png" alt="Entrance Counter Running" width="640" height="480">
  
 ### Pre-Built Binaries
 Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_binaries/) directory:
@@ -57,7 +74,7 @@ For detailed flashing instructions, refer to [**ModusToolbox™ Programmer Docum
  
 ---
  
-## Copyright
+## Copyrights
  
 © 2025 WG Tech Solutions Pvt Ltd. All rights reserved.
  
