@@ -16,7 +16,7 @@ The Application for Entrance Counter is designed to accurately count the number 
 - **Safety and Compliance**: Ensure adherence to occupancy limits in restaurants, theatres, or other public spaces.
 ### Specification and Compatibility
 #### Sensor Settings – Radar
-© 2025 WG Tech Solutions Pvt$0
+
 - **Sample Rate**: 200000 Hz
 - **Field of View**: ±45 degrees
 - **Features**: Range, velocity, Doppler
