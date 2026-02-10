@@ -60,7 +60,7 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 
 7. Once the application hex is successfully flashed to the PSoC™ 6 hardware, the Entrance Counter use-case will start running by default, outputting counts via UART.
 
-8. For real-time visualization, run `Dashboard.exe` from the [PSOC6_AI_binaries](PSOC6_AI_binaries/) directory and connect via serial port (e.g., COM3) to view the UI dashboard.
+8. For real-time visualization, run `Dashboard.exe` from the [PSOC6_AI_fw_binaries](PSOC6_AI_fW_binary/) directory and connect via serial port (e.g., COM3) to view the UI dashboard.
 
 <img src="readme_assets/Dashboard.png" alt="Entrance Counter Running" width="640" height="480">
  
