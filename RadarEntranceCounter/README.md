@@ -60,12 +60,12 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 
 7. Once the application hex is successfully flashed to the PSoC™ 6 hardware, the Entrance Counter use-case will start running by default, outputting counts via UART.
 
-8. For real-time visualization, run `Dashboard.exe` from the [PSOC6_AI_fw_binaries](PSOC6_AI_fW_binary/) directory and connect via serial port (e.g., COM3) to view the UI dashboard.
+8. For real-time visualization, run `Dashboard.exe` from the [PSOC6_AI_fw_binaries](PSOC6_AI_fw_binary/) directory and connect via serial port (e.g., COM3) to view the UI dashboard.
 
 <img src="readme_assets/Dashboard.png" alt="Entrance Counter Running" width="640" height="480">
  
 ### Pre-Built Binaries
-Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_binaries/) directory:
+Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binary/) directory:
 - `Entrance_counter.hex` - Firmware binary that can be directly flashed onto PSoC™ 6 MCU using ModusToolbox™ Programmer tool
 - `Dashboard.exe` - Windows application for real-time counter display and visualization
  
