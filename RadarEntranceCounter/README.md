@@ -54,7 +54,7 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
  
 4. Click Connect, then click Program to flash the firmware.
  
-5. After programming is complete, disconnect the board and press the reset button on the kit.
+5. After programming is complete, press the reset button on the kit.
  
 6. For real-time visualization, run Dashboard.exe from the PSOC6_AI_fw_binary directory.
 
