@@ -78,30 +78,22 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 
 ### Deployment Steps
 
-1. Import the **Range Detection application** project into ModusToolbox™ via
-   **File > Import > ModusToolbox Application**.
-
-2. Copy all the `.h` and `.a` files from the `PSOC6_AI_fw_binary` folder to
-   `<application_workspace>/radar_pipeline_libs` (or the equivalent radar pipeline directory).
-
-3. Open the `Makefile` (or `proj_cm55/Makefile` if dual-core) and update the following variables for the Range Detection application:
-
-   * `NN_MODEL_NAME=RANGE_DETECTION`
-   * `LDLIBS+=../radar_pipeline_libs/RANGE_DETECTION_pipeline.a`
-   * `DEFINES+=CY_RADAR_SENSOR=BGT60TR13C`
-
-4. Connect the supported hardware kit (**PSoC™ 6 + BGT60TR13C**) via USB and ensure the radar sensor is powered and configured.
-
-5. Build the full project:
-   **Right-click project > Build Project**.
-
-6. Program the application to the PSoC™ 6 hardware:
-   **Right-click project > Program**.
-
-7. Once the application HEX is successfully flashed, the **Range Detection application** starts running by default and outputs detected range information via **UART**.
-
-8. For real-time visualization, run `Dashboard.exe` from the
-   [PSOC6_AI_binaries](PSOC6_AI_binaries/) directory and connect via the serial port (e.g., **COM3**) to view the UI dashboard.
+1. Download all required .hex and .exe files from the [PSOC6_AI_binaries](PSOC6_AI_fw_binary) folder.
+ 
+2. Open ModusToolbox Programmer and load the required .hex file.
+ 
+3. Configure the programmer settings:
+ 
+	Programmer: KitProg3 CMSIS-DAP
+ 
+	Board: CY8CKIT-062S2-AI
+ 
+4. Click Connect, then click Program to flash the firmware.
+ 
+5. After programming is complete, disconnect the board and press the reset button on the kit.
+ 
+6. For real-time visualization, run Dashboard.exe from the PSOC6_AI_fw_binary directory.
+Connect to the appropriate serial port (e.g., COM3) to view the dashboard UI.
 
 <img src="readme_assets/Dashboard.png" alt="Range Detection Running" width="640" height="480">
 
@@ -109,7 +101,7 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 
 ### Pre-Built Binaries
 
-Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_binaries/) directory:
+Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binary/) directory:
 
 * `Range_Detection.hex` – Firmware binary that can be directly flashed onto the PSoC™ 6 MCU using ModusToolbox™ Programmer
 * `Dashboard.exe` – Windows application for real-time range visualization
