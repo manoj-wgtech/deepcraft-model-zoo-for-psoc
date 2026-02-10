@@ -1,5 +1,5 @@
 {
-  "title": "Entrance Counter for Radar",
+  "title": "Radar Entrance Detection",
   "description": "Detect and count people entering or exiting a space using radar sensors and PSOC\u2122 6 processing",
   "long_description": "This project demonstrates an entrance counter system built with Infineon's XENSIV\u2122 60 GHz radar sensor (BGT60TR13C) and PSOC\u2122 6. By processing radar reflections, the system detects human entry and exit events in real time, enabling accurate people counting, occupancy monitoring, and smart building automation.",
   "sensors": ["Radar"],
