@@ -46,11 +46,10 @@ See: [LICENSE](license/license.txt) for full details.
 
 ## Pre-requisites
 
-1. Setup ModusToolbox™ software environment and supported hardware kit (e.g., PSoC™ 6 with XENSIV™ BGT60TR13C radar sensor). Refer to the [ModusToolbox™ User Guide](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) for installation and kit configuration.
+1. Install **ModusToolbox™ Programmer** on your computer.
+2. Connect the PSoC™ 6 AI Kit to your system via USB.
+3. Ensure a working USB/UART connection for programming and visualization.
 
-2. Install necessary libraries via ModusToolbox Library Manager (e.g., Radar Sensing SDK).
-
-3. This code example assumes UART/USB connection for output visualization; optional host app for GUI display (e.g., Python-based counter viewer).
 
 ### Deployment Steps
 1. Download all required Box_application_hex.hex, Radar_Box_Application.exe, and the _internal folder from the PSOC6_AI_binaries (PSOC6_AI_fw_binaries/) directory.

@@ -67,12 +67,10 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 
 ## Pre-requisites
 
-1. Set up the **ModusToolbox™** software environment and supported hardware kit (PSoC™ 6 with XENSIV™ BGT60TR13C radar sensor).
-   Refer to the [ModusToolbox™ User Guide](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) for installation and kit configuration.
+1. Install **ModusToolbox™ Programmer** on your computer.
+2. Connect the PSoC™ 6 AI Kit to your system via USB.
+3. Ensure a working USB/UART connection for programming and visualization.
 
-2. Install necessary libraries via **ModusToolbox Library Manager** (e.g., Radar Sensing SDK).
-
-3. This code example assumes a **UART/USB** connection for output visualization; an optional host application can be used for GUI-based visualization.
 
 ---
 

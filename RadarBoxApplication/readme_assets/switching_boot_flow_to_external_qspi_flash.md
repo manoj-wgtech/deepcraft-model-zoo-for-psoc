@@ -7,7 +7,7 @@ This code example uses internal flash booting by default, as do most other examp
 ## Standard Deployment: Flashing .hex to Internal Flash
 For the Box Inside/Outside Detection application:
 
-1. Compile the project in ModusToolbox™ to generate `box_app.hex`.
+1. Compile the project in ModusToolbox™ to generate `Box_application_hex.hex`.
 
 2. Connect the kit via USB Type-C (J2 port).
 
