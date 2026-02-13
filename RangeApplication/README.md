@@ -104,7 +104,7 @@ Connect to the appropriate serial port (e.g., COM3) to view the dashboard UI.
 Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binary/) directory:
 
 * `Range_Detection.hex` – Firmware binary that can be directly flashed onto the PSoC™ 6 MCU using ModusToolbox™ Programmer
-* `Dashboard.exe` – Windows application for real-time range visualization
+* `Range_Application.exe` – Windows application for real-time range visualization
 
 For detailed flashing instructions, refer to
 [**ModusToolbox™ Programmer Documentation**](https://www.infineon.com/row/public/documents/30/44/infineon-modustoolbox-gui-user-guide-usermanual-en.pdf).
