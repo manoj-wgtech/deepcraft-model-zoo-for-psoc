@@ -42,7 +42,7 @@ See: [LICENSE](license/license.txt) for full details.
 
 ### High-Level Flow Diagram
 
-<img src="./readme_assets/Flowchart.png" alt="Radar Box Application" width="500" height="1000">
+<img src="./readme_assets/Flowchart.png" alt="Radar Box Application" width="500" height="1200">
 
 ## Pre-requisites
 
