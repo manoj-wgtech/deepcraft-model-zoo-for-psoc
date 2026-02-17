@@ -61,7 +61,7 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 
 ### High-Level Flow Diagram
 
-<img src="./readme_assets/Flowchart.png" alt="Range Detection Flow Diagram" width="500" height="500">
+<img src="./readme_assets/Flowchart.png" alt="Range Detection Flow Diagram" width="500" height="1000">
 
 ---
 

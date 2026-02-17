@@ -42,7 +42,7 @@ See: [LICENSE](license/license.txt) for full details.
 
 ### High-Level Flow Diagram
 
-<img src="./readme_assets/Flowchart.png" alt="Radar Box Application" width="500" height="500">
+<img src="./readme_assets/Flowchart.png" alt="Radar Box Application" width="500" height="1000">
 
 ## Pre-requisites
 
@@ -68,6 +68,8 @@ See: [LICENSE](license/license.txt) for full details.
  
 6. For real-time visualization, run Radar_Box_Appliation.exe from the [PSOC6_AI_binaries](PSOC6_AI_fw_binaries/) directory.
 Connect to the appropriate serial port (e.g., COM3) to view the dashboard UI.
+
+<img src="readme_assets/Dashboard.png" alt="Range Detection Running" width="500" height="1000">
 
 ### Pre-Built Binaries
 Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binaries/) directory:

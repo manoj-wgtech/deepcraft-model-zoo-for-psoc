@@ -45,7 +45,7 @@ This solution is optimized for real-time performance on embedded edge hardware a
 
 ## High-Level Flow Diagram
 
-<img src="./readme_assets/Flowchart.png" alt="Radar Tracking and Segmentation" width="500" height="500">
+<img src="./readme_assets/Flowchart.png" alt="Radar Tracking and Segmentation" width="500" height="1000">
 
 ## Pre-requisites
 
@@ -64,6 +64,8 @@ This solution is optimized for real-time performance on embedded edge hardware a
 4. Click **Connect**, then **Program** to flash the firmware.
 5. After programming completes, disconnect the board and press the reset button.
 6. Run **Radar_Box_Application.exe** and connect to the appropriate serial port (e.g., COM3) for real-time visualization.
+
+<img src="readme_assets/Dashboard.png" alt="Range Detection Running" width="640" height="480">
 
 ## Pre-Built Binaries
 
