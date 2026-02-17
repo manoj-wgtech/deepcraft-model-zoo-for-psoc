@@ -31,7 +31,7 @@ See: [LICENSE](licenses/LICENSE) for full details.
 All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, etc.) are property of Infineon Technologies AG.
 ### High-Level Flow Diagram
 
-<img src="./readme_assets/Flowchart.png" alt="Radar Entrance Counter Flow Diagram" width="500" height="500">
+<img src="./readme_assets/Flowchart.png" alt="Radar Entrance Counter Flow Diagram" width="500" height="700">
 
 ## Pre-requisites
 
@@ -61,6 +61,22 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 Connect to the appropriate serial port (e.g., COM3) to view the dashboard UI.
 
 <img src="readme_assets/Dashboard.png" alt="Radar Entrance Counter Running" width="640" height="480">
+
+## Kit Placement
+
+For accurate operation of the Radar Entrance Counter Application, the radar kit must be properly positioned at the doorway.
+
+Place the **:contentReference[oaicite:0]{index=0} PSoC™ 6 radar kit** at the entrance of the door as shown in the image below. The kit should be mounted **120 cm from the floor** and aligned toward the walking path to ensure reliable detection of people entering and exiting.
+
+<img src="./readme_assets/Kit_Placement.jpeg" alt="Radar Kit Placement at Entrance" width="500" height="700">
+
+### Placement Guidelines
+
+- Mount the kit at a height of **120 cm from the floor**
+- Position the kit at the **entrance of the doorway**, facing the walking direction
+- Ensure **no obstructions** are present in front of the radar sensor
+- Avoid installing near **large reflective or metallic surfaces**
+
  
 ### Pre-Built Binaries
 Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binary/) directory:
