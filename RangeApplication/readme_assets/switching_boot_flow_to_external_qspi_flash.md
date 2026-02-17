@@ -6,7 +6,7 @@ This code example uses internal flash booting by default, as do most other examp
 
 ## Standard Deployment: Flashing .hex to Internal Flash
 For the Entrance Counter application:
-1. Compile the project in ModusToolbox™ to generate `Entrance_counter.hex`.
+1. Compile the project in ModusToolbox™ to generate `Range_detection_hex.hex`.
 2. Connect the kit via USB Type-C (J2 port).
 3. Use **ModusToolbox™ Programmer**:
    - Launch Programmer > Select Device (auto-detects CY8C62x6).

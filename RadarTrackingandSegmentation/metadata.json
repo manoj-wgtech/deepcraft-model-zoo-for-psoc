@@ -1,0 +1,24 @@
+{
+  "title": "Radar Tracking and Segmentation - PSOC6 Infineon Radar Sensor",
+  "description": "Detect and track multiple objects or people using radar sensors connected to a PSoC™ 6 platform.",
+  "long_description":"Process radar signals on PSOC\u2122 6 to segment reflections into objects and track their movement over time, enabling applications like people counting, occupancy monitoring.",
+  "algorithm": ["Unsupervised Learning"],
+  "sensors": ["60GHz Radar (BGT60TR13C) Sensor"],
+  "domain": ["Radar", "Object Detection", "Sensing"],
+  "application": [ "Occupancy Detection", "Security Monitoring"],
+  "use_case": ["People Counting", "Movement Detection", "Room Occupancy"],
+  "kit": ["PSOC\u2122 6 AI Kit", "Radar Sensor Module (BGT60TR13C)"],
+  "device": ["PSOC\u2122 6"],
+  "workflow": ["Radar Signal Processing"],
+  "thumbnail_image_id": "lowres-GettyImages-Smarthomepanel.webp",
+  "main_image_id": "lowres-GettyImages-Smarthomepanel.webp",
+  "brand_image_id": "wgtech-trademark-logo-final-April2024.webp",
+  "brand_url": "https://www.wgtech.ai/",
+  "links": [
+    {
+      "label": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/Radar Tracking and Segmentation",
+      "heading": "Try Today",
+      "sub-heading": "Test out the Radar Tracking and Segmentation for BGT60TR13C\u2122 Radar"
+    }
+  ]
+}

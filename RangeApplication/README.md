@@ -67,12 +67,10 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 
 ## Pre-requisites
 
-1. Set up the **ModusToolbox™** software environment and supported hardware kit (PSoC™ 6 with XENSIV™ BGT60TR13C radar sensor).
-   Refer to the [ModusToolbox™ User Guide](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) for installation and kit configuration.
+1. Install **ModusToolbox™ Programmer** on your computer.
+2. Connect the PSoC™ 6 AI Kit to your system via USB.
+3. Ensure a working USB/UART connection for programming and visualization.
 
-2. Install necessary libraries via **ModusToolbox Library Manager** (e.g., Radar Sensing SDK).
-
-3. This code example assumes a **UART/USB** connection for output visualization; an optional host application can be used for GUI-based visualization.
 
 ---
 
@@ -80,7 +78,7 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 
 1. Download all required .hex and .exe files from the [PSOC6_AI_binaries](PSOC6_AI_fw_binary) folder.
  
-2. Open ModusToolbox Programmer and load the required .hex file.
+2. Open ModusToolbox Programmer and load the required Range_Detection_hex.hex file.
  
 3. Configure the programmer settings:
  
@@ -92,7 +90,7 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
  
 5. After programming is complete, disconnect the board and press the reset button on the kit.
  
-6. For real-time visualization, run Dashboard.exe from the PSOC6_AI_fw_binary directory.
+6. For real-time visualization, run Radar_Range_Application.exe from the PSOC6_AI_fw_binary directory.
 Connect to the appropriate serial port (e.g., COM3) to view the dashboard UI.
 
 <img src="readme_assets/Dashboard.png" alt="Range Detection Running" width="640" height="480">
@@ -103,8 +101,8 @@ Connect to the appropriate serial port (e.g., COM3) to view the dashboard UI.
 
 Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binary/) directory:
 
-* `Range_Detection.hex` – Firmware binary that can be directly flashed onto the PSoC™ 6 MCU using ModusToolbox™ Programmer
-* `Dashboard.exe` – Windows application for real-time range visualization
+* `Range_Detection_hex.hex` – Firmware binary that can be directly flashed onto the PSoC™ 6 MCU using ModusToolbox™ Programmer
+* `Radar_Range_Application.exe` – Windows application for real-time range visualization
 
 For detailed flashing instructions, refer to
 [**ModusToolbox™ Programmer Documentation**](https://www.infineon.com/row/public/documents/30/44/infineon-modustoolbox-gui-user-guide-usermanual-en.pdf).
