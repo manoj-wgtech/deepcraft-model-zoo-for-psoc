@@ -66,7 +66,7 @@ Connect to the appropriate serial port (e.g., COM3) to view the dashboard UI.
 
 For accurate operation of the Radar Entrance Counter Application, the radar kit must be properly positioned at the doorway.
 
-Place the **:contentReference[oaicite:0]{index=0} PSoC™ 6 radar kit** at the entrance of the door as shown in the image below. The kit should be mounted **120 cm from the floor** and aligned toward the walking path to ensure reliable detection of people entering and exiting.
+Place the **PSoC 6 Evaluation AI kit** at the entrance of the door as shown in the image below. The kit should be mounted **120 cm from the floor** and aligned toward the walking path to ensure reliable detection of people entering and exiting.
 
 <img src="./readme_assets/Kit_Placement.jpeg" alt="Radar Kit Placement at Entrance" width="500" height="1000">
 
