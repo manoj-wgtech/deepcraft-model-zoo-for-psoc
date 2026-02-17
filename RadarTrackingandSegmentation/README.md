@@ -65,14 +65,35 @@ This solution is optimized for real-time performance on embedded edge hardware a
 5. After programming completes, disconnect the board and press the reset button.
 6. Run **Radar_Box_Application.exe** and connect to the appropriate serial port (e.g., COM3) for real-time visualization.
 
-<img src="readme_assets/Dashboard.png" alt="Range Detection Running" width="640" height="480">
+<img src="readme_assets/Dashboard.png" alt="Radat Tracking and Segmentation Detection Running" width="640" height="480">
+
+## Kit Placement 
+
+For accurate operation of the Radar Tracking and Segmentation Application, the radar kit must be positioned correctly to ensure reliable distance detection within the sensing area.
+
+Place the **PSoC™ 6 AI Evaluation kit** according to the placement guidelines below.
+
+### Placement Requirements
+
+- Mount the radar kit at a height of **120 cm from the floor**
+- The radar kit detects objects within a **±45° field of view**, as shown in the below image
+- The maximum detection range is **up to 1.2 m**
+- Align the kit to face the **target detection area directly**
+- Ensure a **clear line of sight** within the 45° detection cone
+- Avoid placing **obstacles or reflective surfaces** inside the sensing range
+- Install the kit on a **stable and vibration-free mount**
+- Keep the sensing area **free from unintended movement** during calibration
+- Avoid installing near **metallic objects or electronic interference sources**
+- Maintain **consistent environmental conditions** for reliable measurements
+
+<img src="./readme_assets/Kit_Placement.png" alt="Radar Tracking and Segmentation Application Kit Placement" width="640" height="480">
 
 ## Pre-Built Binaries
 
 Pre-built binaries are available in the `PSOC6_AI_binaries (PSOC6_AI_fw_binaries/)` directory:
 
-- `Box_application_hex.hex` — Firmware binary for flashing onto the PSoC™ 6 MCU
-- `Radar_Box_Application.exe` — Windows application for real-time tracking visualization
+- `Radar_Tracking.hex` — Firmware binary for flashing onto the PSoC™ 6 MCU
+- `Radar_Tracking_and_Segmentation_Application.exe` — Windows application for real-time tracking visualization
 
 ## Licenses
 

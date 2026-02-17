@@ -69,6 +69,25 @@ See: [LICENSE](license/license.txt) for full details.
 6. For real-time visualization, run Radar_Box_Appliation.exe from the [PSOC6_AI_binaries](PSOC6_AI_fw_binaries/) directory.
 Connect to the appropriate serial port (e.g., COM3) to view the dashboard UI.
 
+## Kit Placement
+
+For accurate performance of the Radar Box Application, the radar kit and test box must be positioned correctly within the measurement area.
+
+Place the **PSoC™ 6 AI Evaluation kit** according to the guidelines below to ensure stable and reliable detection.
+
+### Placement Requirements
+
+- Mount the radar kit at a height of **120 cm from the floor**
+- Use a test box with dimensions **60 cm × 60 cm**
+- Position the box **60 cm away from the radar kit**
+- Align the kit so it is **directly facing the center of the box**
+- Ensure the radar sensor has a **clear line of sight** to the box
+- Avoid placing **metallic or highly reflective materials** near the sensing area
+- Install the kit on a **stable surface or fixed mount** to prevent movement
+- Maintain **consistent lighting and environmental conditions** during testing
+- Ensure **no human movement** occurs inside the sensing area during calibration
+
+
 <img src="readme_assets/Dashboard.png" alt="Range Detection Running" width="400" height="1000">
 
 ### Pre-Built Binaries
