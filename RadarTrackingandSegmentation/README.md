@@ -99,7 +99,7 @@ Pre-built binaries are available in the `PSOC6_AI_binaries (PSOC6_AI_fw_binaries
 
 This sample application and deployable binaries are licensed under the terms in the LICENSE file.
 
-See: [LICENSE](license/license.txt) for full details.
+See: [LICENSE](license/LICENSE) for full details.
 
 ---
 
@@ -107,6 +107,6 @@ See: [LICENSE](license/license.txt) for full details.
 
 © 2025 WG Tech Solutions Pvt Ltd. All rights reserved.
 
-This project is licensed under the MIT License — see the [LICENSE](license/license.txt) file for details.
+This project is licensed under the MIT License — see the [LICENSE](license/LICENSE) file for details.
 
 PSoC™, ModusToolbox™, and XENSIV™ are trademarks of Infineon Technologies AG. Other names and brands may be claimed as property of their respective owners.
