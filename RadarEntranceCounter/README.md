@@ -92,9 +92,6 @@ To achieve reliable counting performance, ensure the radar **field of view fully
 
 > ⚠️ If people walk outside the radar FoV, missed counts may occur.
 
-**Typical Radar FoV:**  
-- Azimuth (horizontal): **±45° (≈ 90° total)**
-
 ### Sensor Orientation — Critical
 
 Proper sensor orientation is required for correct IN/OUT classification.
@@ -103,6 +100,10 @@ Proper sensor orientation is required for correct IN/OUT classification.
 - Keep the board **horizontally aligned** (USB/power cable typically facing sideways)
 
 > ✅ Correct orientation ensures accurate direction (IN/OUT) detection and minimizes false counts.
+
+### Walking Speed Recommendation
+
+For optimal detection and accurate IN/OUT classification, people should walk through the doorway at a **normal walking pace**.
 
 ### Pre-Built Binaries
 Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binary/) directory:
