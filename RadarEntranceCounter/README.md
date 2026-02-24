@@ -77,7 +77,33 @@ Place the **PSoC 6 Evaluation AI kit** at the entrance of the door as shown in t
 - Ensure **no obstructions** are present in front of the radar sensor
 - Avoid installing near **large reflective or metallic surfaces**
 
- 
+### Field of View (FoV) Coverage — Important
+
+To achieve reliable counting performance, ensure the radar **field of view fully covers the walking path through the doorway**.
+
+**Recommendations:**
+
+- The radar beam should cover the **entire door width**
+- Recommended door width coverage: **≤ 90 centimeters**
+- Recommended detection distance from radar: **60 centimeters**
+- Avoid mounting too far to the side, which may cause partial detection
+
+<img src="./readme_assets/Distance_detection.png" alt="Radar Kit Placement at Entrance" width="640" height="480">
+
+> ⚠️ If people walk outside the radar FoV, missed counts may occur.
+
+**Typical Radar FoV:**  
+- Azimuth (horizontal): **±45° (≈ 90° total)**
+
+### Sensor Orientation — Critical
+
+Proper sensor orientation is required for correct IN/OUT classification.
+
+- The radar **antenna face must point toward the walking path**
+- Keep the board **horizontally aligned** (USB/power cable typically facing sideways)
+
+> ✅ Correct orientation ensures accurate direction (IN/OUT) detection and minimizes false counts.
+
 ### Pre-Built Binaries
 Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binary/) directory:
 - `Entrance_counter.hex` - Firmware binary that can be directly flashed onto PSoC™ 6 MCU using ModusToolbox™ Programmer tool
